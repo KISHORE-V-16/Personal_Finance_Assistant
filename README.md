@@ -150,21 +150,21 @@ Frontend/
 
 In a new terminal, navigate to the Backend directory and follow these steps.
 
-# 1. Go to the backend directory
+1. Go to the backend directory
 cd Backend
 
-# 2. Install all required dependencies
+2. Install all required dependencies
 npm install
 
-# 3. Set up environment variables
-#    Create a .env file and add your database credentials and a JWT secret.
-#    You can copy the example file to get started:
+3. Set up environment variables
+    Create a .env file and add your database credentials and a JWT secret.
+    You can copy the example file to get started:
 cp .env.example .env
 
-# 4. Create the necessary database tables by running the setup script
+ 4. Create the necessary database tables by running the setup script
 node models/createTables.js
 
-# 5. Start the development server
+ 5. Start the development server
 npm start
 
 
@@ -172,13 +172,13 @@ npm start
 
 Open a new terminal window, navigate to the Frontend directory, and follow these steps.
 
-# 1. Go to the frontend directory
+1. Go to the frontend directory
 cd Frontend
 
-# 2. Install all required dependencies
+2. Install all required dependencies
 npm install
 
-# 3. Start the development server
+3. Start the development server
 npm run dev
 
 
